@@ -50,7 +50,7 @@ A RESTful API for creating, managing, and taking quizzes with support for multip
 ### Quiz Endpoints
 
 - **POST /api/quizzes** - Create a new quiz
-- **GET /api/quizzes** - Get all quizzes with pagination
+- **GET /api/quizzes** - Get all quizzes
 - **GET /api/quizzes/:id** - Get a specific quiz by ID
 ### Question Endpoints
 

@@ -9,7 +9,6 @@ A RESTful API for creating, managing, and taking quizzes with support for multip
 - **Quiz Management**: Create and retrieve quizzes with metadata
 - **Multiple Question Types**: Single-choice, multiple-choice, and text-based questions
 - **Quiz Submission**: Automatic scoring of submitted answers
-- **Flexible Retrieval**: Pagination, sorting, and field selection
 
 ## Tech Stack
 
@@ -53,8 +52,6 @@ A RESTful API for creating, managing, and taking quizzes with support for multip
 - **POST /api/quizzes** - Create a new quiz
 - **GET /api/quizzes** - Get all quizzes with pagination
 - **GET /api/quizzes/:id** - Get a specific quiz by ID
-- **GET /api/quizzes/stats** - Get quiz statistics
-
 ### Question Endpoints
 
 - **POST /api/questions** - Create a new question

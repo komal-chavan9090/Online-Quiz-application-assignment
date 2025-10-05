@@ -1,7 +1,5 @@
 # Online-Quiz-application-assignment
 
-# Quiz App API
-
 A RESTful API for creating, managing, and taking quizzes with support for multiple question types and automatic scoring.
 
 ## Features

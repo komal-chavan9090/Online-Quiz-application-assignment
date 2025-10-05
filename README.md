@@ -14,6 +14,14 @@ A RESTful API for creating, managing, and taking quizzes with support for multip
 - **MongoDB & Mongoose**: Database and ODM
 - **Jest**: Testing framework
 
+## Assumptions & Design Choices
+
+- Only quiz creation, question creation, and quiz submission are supported (no update/delete endpoints)
+- Questions must have non-empty answers; validation is enforced for all types
+- Options for single/multiple-choice questions are arrays of strings; answers are string or array of strings
+- Error handling is centralized for consistent API responses
+- Service layer is unit tested with mocks for isolation
+
 ## Installation
 
 1. Clone the repository
